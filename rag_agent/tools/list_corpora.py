@@ -21,6 +21,7 @@ def list_corpora() -> dict:
     try:
         # Get the list of corpora
         corpora = rag.list_corpora()
+        print("****** Found corpus", corpora)
 
         # Process corpus information into a more usable format
         corpus_info: List[Dict[str, Union[str, int]]] = []

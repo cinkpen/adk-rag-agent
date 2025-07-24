@@ -1,0 +1,202 @@
+{
+  "eval_set_id": "evalsetee3d99",
+  "name": "evalsetee3d99",
+  "description": null,
+  "eval_cases": [
+    {
+      "eval_id": "case84c408",
+      "conversation": [
+        {
+          "invocation_id": "e-473f4bd8-4b60-4fb8-bad0-cf0db8ed9da3",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "what tools"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "I have a few tools that can help you interact with Vertex AI's document corpora. Here's what I can do:\n\n1.  **Query Documents**: I can answer questions by retrieving relevant information from document corpora using the `rag_query` tool.\n\n2.  **List Corpora**: I can list all available document corpora to help you understand what data is available using the `list_corpora` tool.\n\n3.  **Create Corpus**: I can create new document corpora for organizing information using the `create_corpus` tool.\n\n4.  **Add New Data**: I can add new documents (from Google Drive or Google Cloud Storage) to existing corpora using the `add_data` tool.\n\n5.  **Get Corpus Info**: I can provide detailed information about a specific corpus, including file metadata and statistics using the `get_corpus_info` tool.\n\n6.  **Delete Document**: I can delete a specific document from a corpus when it's no longer needed using the `delete_document` tool.\n\n7.  **Delete Corpus**: I can delete an entire corpus and all its associated files when it's no longer needed using the `delete_corpus` tool.\n\nLet me know how I can help you with any of these tasks"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1753351455.738875
+        },
+        {
+          "invocation_id": "e-ea220892-353f-425d-a95e-8e787c9c1b5d",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "list corpus"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Here are the available corpora:\n\n*   rag-corpus\n*   abmproject1\n*   abmproject2\n*   cpo georgian bat gen hospital\n*   tony-cyber\n\nI can provide more details on any of these if you'd like."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-47598cca-5d32-4217-8695-cd1bd1c8e982",
+                "args": {},
+                "name": "list_corpora"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1753351481.994616
+        },
+        {
+          "invocation_id": "e-cc21e879-e07d-40c3-9721-f66ca6f24d5b",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "use tony-cyber"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "I will now use the `tony-cyber` corpus for our operations.\n\nWhat would you like to do? For example, you can ask a question about the documents in this corpus or add new data to it."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1753351498.827063
+        },
+        {
+          "invocation_id": "e-e93935a5-5d42-4dd1-a985-0513b2164c74",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "what is the document about - please summarise"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Based on the document \"AIML Cyber Guidelines Whitepaper.docx\" in the `tony-cyber` corpus, here is a summary of the key information:\n\nThis document provides a comprehensive overview of the cybersecurity and data privacy considerations related to the use of Artificial Intelligence (AI) and Machine Learning (ML) in Honeywell products and systems. It outlines the various types of AI/ML systems, their potential risks, and the necessary processes and guidelines to ensure their responsible and secure implementation.\n\n**Key themes covered in the document:**\n\n*   **AI/ML Definitions:** The document defines key terms such as AI, ML, Large Language Models (LLMs), chatbots, and AI agents, explaining their functionalities and differences.\n*   **Honeywell's AI/ML Governance:** It details Honeywell's internal processes and governance framework for AI/ML, including the requirement for legal approval before releasing any product with AI/ML capabilities. The process involves several forms and assessments to evaluate the risks and impacts of AI/ML systems.\n*   **Cybersecurity Risks:** The whitepaper identifies and explains various cybersecurity risks associated with AI/ML, including:\n    *   **System Prompt Leakage:** The exposure of internal prompts and configurations that can lead to information leaks.\n    *   **Vector and Embedding Weaknesses:** The manipulation of data in vector databases, which can result in poisoning attacks and information leaks.\n    *   **Misinformation and Hallucination:** The generation of false or misleading information by AI models.\n    *   **Unbounded Consumption:** The excessive use of resources by an LLM application, potentially leading to denial-of-service attacks.\n    *   **Indirect Attacks:** Attacks on the operating environment of an AI system, such as manipulating sensor data to deceive the system.\n    *   **Supply Chain Risks:** The risk of tampering with AI/ML models, training data, or deployment platforms at any stage of the supply chain.\n*   **Data Privacy:** The document emphasizes the importance of data privacy, especially when dealing with personal data. It highlights the need to comply with regional regulations and to securely handle data throughout the product lifecycle, including at the end of life.\n*   **Inferencing and Training:** It explains the concepts of inferencing (the process of an AI model making decisions based on new data) and training (the process of teaching an AI model). The quality of training is highlighted as a critical factor for the performance and security of an AI system.\n*   **Cloud vs. Edge Computing:** The document discusses the different security considerations for AI systems deployed in the cloud versus at the edge.\n*   **Legislative Considerations:** It mentions the evolving legal landscape for AI, with a specific reference to the EU AI Act and its expected timelines for enforcement.\n\nIn essence, the document serves as a guide for developers and stakeholders at Honeywell to navigate the complexities of AI/ML development, ensuring that the resulting products are not only innovative but also secure, compliant with regulations, and respectful of user privacy."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-480709c2-56e3-470a-b5b5-df9018d6242d",
+                "args": {
+                  "query": "Summarize the key information in this corpus",
+                  "corpus_name": "tony-cyber"
+                },
+                "name": "rag_query"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1753351514.682631
+        }
+      ],
+      "session_input": {
+        "app_name": "rag_agent",
+        "user_id": "user",
+        "state": {}
+      },
+      "creation_timestamp": 1753351764.3848257
+    }
+  ],
+  "creation_timestamp": 1753351755.1594865
+}

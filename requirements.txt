@@ -4,3 +4,6 @@ google-genai
 gitpython
 google-adk
 google-adk[eval]
+vertexai
+PyMuPDF
+Pillow
